@@ -1,3 +1,3 @@
-# definitely-not-a-rickroll
+# Definitely not a Rickroll
 
-It's a joke.
+You can use [this link](https://new-project.cimlah.art) to make a joke on your mates.
