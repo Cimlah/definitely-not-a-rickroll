@@ -1,0 +1,38 @@
+#css-selector {
+    background: linear-gradient(236deg, #2376d7, #4b9be8, #e8ad4b);
+    background-size: 600% 600%;
+    -webkit-animation: gradient 0s ease infinite;
+    -moz-animation: gradient 0s ease infinite;
+    -o-animation: gradient 0s ease infinite;
+    animation: gradient 0s ease infinite;
+}
+@-webkit-keyframes gradient {
+    0%{background-position:15% 0%}
+    50%{background-position:86% 100%}
+    100%{background-position:15% 0%}
+}
+@-moz-keyframes gradient {
+    0%{background-position:15% 0%}
+    50%{background-position:86% 100%}
+    100%{background-position:15% 0%}
+}
+@-o-keyframes gradient {
+    0%{background-position:15% 0%}
+    50%{background-position:86% 100%}
+    100%{background-position:15% 0%}
+}
+@keyframes gradient {
+    0%{background-position:15% 0%}
+    50%{background-position:86% 100%}
+    100%{background-position:15% 0%}
+}
+
+body {
+    text-align: center;
+}
+
+p {
+    font-family: 'Supermercado One', cursive;
+    font-size: 50px;
+    color: white;
+}
