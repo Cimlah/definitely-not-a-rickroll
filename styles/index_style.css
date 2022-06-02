@@ -27,12 +27,29 @@
     100%{background-position:15% 0%}
 }
 
-body {
-    text-align: center;
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-p {
+body {
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+}
+
+body img{
+    max-width: 90vw;
+    height: auto;
+}
+
+body p {
     font-family: 'Supermercado One', cursive;
-    font-size: 50px;
+    font-size: min(50px, 20vw);
     color: white;
 }
